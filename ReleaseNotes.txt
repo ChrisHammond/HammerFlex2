@@ -1,0 +1,143 @@
+﻿<h3>HammerFlex</h3>
+	Christoc.com <br />
+	<a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
+	<a href=http://www.christoc.com>http://www.christoc.com</a><br />
+<hr/>
+
+<h3>About the HammerFlex</h3>
+	<h4>Version 00.01.15</h4><br />
+	Fifteenth release of HammerFlex
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Added Footer row to allow for full width styling</li>
+			<li>Copyright updated to 2017</li>
+			<li>Adjusted menu padding to 20px top/bottom</li>
+			<li>Most likely the final release of HammerFlex, unless Boostrap 3.* has another release. <a href="http://github.com/ChrisHammond/HammerHead">Check out HammerHead for a BootStrap 4 Theme for DotNetNuke</a></li>
+			
+	</ul>
+
+	<h4>Version 00.01.14</h4><br />
+	Fourteenth release of HammerFlex
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Copyright updated to 2016</li>
+			<li>Bootstrap V3.3.7</li>
+			<li>Upgraded to Bootstrap Image Gallery 3.4.2 (https://github.com/blueimp/Bootstrap-Image-Gallery)</li>			
+	</ul>
+	
+	<h4>Version 00.01.13</h4><br />
+	Thirteenth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Bootstrap V3.3.6</li>
+			<li>Upgraded to Bootstrap Image Gallery 3.1.3 (https://github.com/blueimp/Bootstrap-Image-Gallery)</li>			
+			<li>Changed CLASS on Title tag for the BlueImp gallery controls.</li>
+	</ul>
+
+	<h4>Version 00.01.12</h4><br />
+	Thirteenth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>SubMenu Fix -Richard Howells</li>
+			<li>Bootstrap V3.3.5</li>
+	</ul>
+
+
+	<h4>Version 00.01.11</h4><br />
+	Twelfth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Updated to Bootstrap V3.3.4.</li>
+			<li>Fix for radiobutton background colors.</li>
+	</ul>
+
+
+
+	<h4>Version 00.01.10</h4><br />
+	Eleventh release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Updated to Bootstrap V3.3.2.</li>
+	</ul>
+	<h4>Version 00.01.09</h4><br />
+	Tenth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Updated load priority for bootstrap.js to fix problems with DNN Dropdown lists.</li>
+			<li>Updated copyrights for 2015</li>
+	</ul>
+
+	<h4>Version 00.01.08</h4><br />
+	Ninth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Upgraded to Bootstrap 3.3.1 (http://getbootstrap.com)</li>
+			<li>Set default container in Carousel pane to be Blank.ascx</li>
+	</ul>
+	<h4>Version 00.01.07</h4><br />
+	Eighth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Fixed CSS reference for Edit.ascx, was using wrong CSS file.</li>
+			<li>Fixed .dnnCheckbox .mark for bootstrap background.</li>
+	</ul>
+	<h4>Version 00.01.06</h4><br />
+	Seventh release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Upgraded to Bootstrap 3.2.0 (http://getbootstrap.com)</li>			
+			<li>Upgraded to Bootstrap Image Gallery 3.1.1 (https://github.com/blueimp/Bootstrap-Image-Gallery)</li>			
+	</ul>
+
+	<h4>Version 00.01.05</h4><br />
+	Sixth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Fix for carousel pane causing scrolling in IE and FF - Aaron D.</li>
+			<li>DNN Dropdown list styling fix for lists without an item selected (site settings) </li>
+	</ul>
+
+	<h4>Version 00.01.04</h4><br />
+	Fifth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Updates to the SkinPackage.targets file to include Nuget files - Chris Hammond</li>
+			<li>Updates to SkinPackage.targets to exclude .git folder - Chris Hammond</li>
+			<li>Removed "Exclude" section from SkinPackage.targets that wasn't being used </li>
+	</ul>
+
+
+	<h4>Version 00.01.03</h4><br />
+	Fourth release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Updates to note that Host/Extension installation is required, Admin/Extensions will not work. - Chris Hammond</li>
+			<li>Updated to Bootstrap 3.1.1</li>
+			<li>Updated Cerulean CSS for Bootstrap 3.1.1</li>
+	</ul>
+
+	<h4>Version 00.01.02</h4><br />
+	Third release of HammerFlex
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Fixed DNNTabs display - Chris Hammond</li>
+			<li>Added new Icons for notifications and messages to become red when a message or notification is available. - Chris Hammond</li>
+			<li>Styling the Search box in the nav menu - Chris Hammond</li>
+			<li>Added new row (2 panes) in Home.ascx for User Profile pages. UserProfileLeft (col-md-2) and UserProfileContent (col-md-10) - Chris Hammond</li>
+	</ul>
+	<h4>Version 00.01.01</h4><br />
+	Second release	
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>Fix image height bounce during carousel animation - Anthony Overkamp</li>
+			<li>Fixed load order of bootstrap.css to allow portal.css overrides - Chris Hammond</li>
+			<li>Added 10px margin-top to #Content to add space between navbar/carousel and module content - Chris Hammond</li>
+			<li>Adjusted CSS to force carousel images to 100% - Chris Hammond</li>
+	</ul>
+	<h4>Version 00.01.00</h4><br />
+	Initial release of the skin using Bootstrap 3 and DNN 7.1	
+	<h5>Bug Fixes</h5>
+	<ul>
+			<li>None, first release</li>
+	</ul>
+</div>
