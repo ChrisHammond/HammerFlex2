@@ -13,14 +13,6 @@
     border-radius: 0 !important;
 }
 
-.carousel-inner > .active.left {
-    float: none;
-}
-
-.carousel-caption h1 {
-    color: #fff;
-}
-
 .navbar-brand {
     padding: 0 !important;
 }
@@ -91,8 +83,9 @@ ul.dnnAdminTabNav {
 }
 
 
-.navbar-default .navbar-nav > li > div > ul > li > a, .navbar-default .LoginLink {
+.navbar-default .navbar-nav > li > div > ul > li > a, .navbar-default .LoginLink, .LoginLink {
     color: #ffffff;
+
 }
 
     .navbar-default .navbar-nav > li > div > a:hover,
@@ -117,7 +110,7 @@ ul.dnnAdminTabNav {
 /*------------------------------------------------*/
 
 .navbar-right {
-    height: 51px;
+    height: 45px;
 }
 
     .navbar-right .registerGroup,
@@ -125,6 +118,7 @@ ul.dnnAdminTabNav {
     .navbar-right .loginGroup,
     .navbar-right .loginGroup * {
         display: inline;
+        color:#FFF;
     }
 
     .navbar-right .registerGroup,
@@ -150,7 +144,7 @@ ul.dnnAdminTabNav {
             display: block;
             position: relative;
             min-width: 12px;
-            padding: 20px 20px 20px 20px;
+            padding: 10px 10px 10px 10px;
             vertical-align: middle;
         }
 
@@ -209,14 +203,14 @@ ul.dnnAdminTabNav {
 
 
     .navbar-right .registerGroup .userProfileImg a {
-        min-width: 62px;
-        min-height: 62px;
+        min-width: 45px;
+        min-height: 45px;
         padding: 0;
     }
 
     .navbar-right .registerGroup a img {
-        height: 62px;
-        width: 62px;
+        height: 45px;
+        width: 45px;
     }
 
     /* Login Group Styles */
