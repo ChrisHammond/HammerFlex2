@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("HammerFlex")]
-[assembly: AssemblyDescription("A bootstrap enabled skin for DotNetNuke")]
+[assembly: AssemblyTitle("HammerFlex2")]
+[assembly: AssemblyDescription("A bootstrap 4 enabled skin for DotNetNuke")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("HammerFlex")]
-[assembly: AssemblyCopyright("Christoc.com Copyright © 2017")]
+[assembly: AssemblyProduct("HammerFlex2")]
+[assembly: AssemblyCopyright("Christoc.com Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,5 +30,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("00.01.15.*")]
-[assembly: AssemblyFileVersion("00.01.15.*")]
+[assembly: AssemblyVersion("00.00.01.*")]
+[assembly: AssemblyFileVersion("00.00.01.*")]

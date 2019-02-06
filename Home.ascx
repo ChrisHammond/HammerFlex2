@@ -1,6 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Home.ascx.cs" Inherits="Christoc.Skins.HammerFlex2.Home" %>
 <%@ Register TagPrefix="dnn" TagName="LOGO" Src="~/Admin/Skins/Logo.ascx" %>
-<%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="USER" Src="~/Admin/Skins/User.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="LOGIN" Src="~/Admin/Skins/Login.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="PRIVACY" Src="~/Admin/Skins/Privacy.ascx" %>
@@ -25,7 +24,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-brand" style="display:none;">
+            <div class="navbar-brand">
                 <dnn:LOGO runat="server" id="dnnLOGO" />
             </div>
         </div>
@@ -33,17 +32,6 @@
             <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
 
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="LoginLink dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="searchBox">
-                                <dnn:SEARCH id="dnnSearch" runat="server" showsite="false" showweb="false" cssclass="btn btn-success btn-xs" />
-                            </div>
-                        </li>
-                    </ul>
-
-                </li>
                 <li>
                     <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
@@ -56,7 +44,7 @@
     </div>
 </div>
 
-<div id="CarouselPane" runat="server" class="carousel slide" containertype="G" containername="HammerFlex" containersrc="Blank.ascx" />
+<div id="CarouselPane" runat="server" class="carousel slide" containertype="G" containername="HammerFlex2" containersrc="Blank.ascx" />
 
 <div class="container">
     <!--/Logo-->
