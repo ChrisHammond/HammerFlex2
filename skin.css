@@ -64,17 +64,23 @@ ul.dnnAdminTabNav {
 }
 
 /* Addition to bootstrap menu styles */
+
+/* Navigation */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
 /* Displace second and deeper level menus right from their parent.  */
 .dropdown-menu .dropdown-menu {
     margin-left: 160px;
 }
 
+.open .dropdown-menu {
+    display: block
+}
 
-/* Navigation */
-
-
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,1);
+.dropdown-menu a.nav-link {
+    color: #000 !important;
 }
 
 .navbar-default .navbar-nav > li > div > ul > li > a, .navbar-default .LoginLink, .LoginLink {

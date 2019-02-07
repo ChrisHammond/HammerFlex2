@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Christoc.Skins.HammerFlex</RootNamespace>
-    <AssemblyName>HammerFlex</AssemblyName>
+    <RootNamespace>Christoc.Skins.HammerFlex2</RootNamespace>
+    <AssemblyName>HammerFlex2</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
@@ -91,7 +91,6 @@
     <Content Include="bootstrapNav\BootStrapNav.txt" />
     <Content Include="Containers\Blank.ascx" />
     <Content Include="Containers\Main.ascx" />
-    <Content Include="css\bootstrap-image-gallery.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="Edit.ascx" />
@@ -168,7 +167,7 @@
           <DevelopmentServerPort>55931</DevelopmentServerPort>
           <DevelopmentServerVPath>
           </DevelopmentServerVPath>
-          <IISUrl>http://dnndev.me/portals/_default/skins/HammerFlex</IISUrl>
+          <IISUrl>http://dnndev.me/portals/_default/skins/HammerFlex2</IISUrl>
           <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
           <IISAppRootUrl>http://dnndev.me</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
@@ -182,8 +181,8 @@
   </ProjectExtensions>
   <PropertyGroup>
     <Extension>zip</Extension>
-    <DNNFileName>HammerFlex</DNNFileName>
-    <PackageName>HammerFlex</PackageName>
+    <DNNFileName>HammerFlex2</DNNFileName>
+    <PackageName>HammerFlex2</PackageName>
     <MSBuildCommunityTasksPath>$(SolutionDir)\BuildScripts</MSBuildCommunityTasksPath>
   </PropertyGroup>
   <Import Project="BuildScripts\SkinPackage.Targets" />

@@ -18,7 +18,7 @@
 
 
 
-<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary" role="navigation">
+<div class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">

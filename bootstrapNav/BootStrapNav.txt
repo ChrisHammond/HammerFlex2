@@ -2,14 +2,14 @@
 [*>NODE]
 </ul>
 [>NODE]
-    <li class="[?NODE]dropdown [/?][?SELECTED]active[/?] nav-item px-lg-4">
+    <li class="nav-item [?NODE]dropdown [/?][?SELECTED]active[/?] px-lg-4">
     [?ENABLED]
-        <a href="[=URL]" class="nav-link text-uppercase text-expanded [?NODE]dropdown-toggle[/?]" [?NODE]data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[/?]>[=TEXT] [?NODE]<b class="caret"></b>[/?]</a>
+        <a href="[=URL]"  class="nav-link text-uppercase text-expanded [?NODE]dropdown-toggle[/?]" [?NODE]data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[/?]>[=TEXT] [?NODE]<b class="caret"></b>[/?]</a>
     [?ELSE]
-        <a href="#" class="nav-link text-uppercase text-expanded [?NODE]dropdown-toggle[/?]" [?NODE]data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[/?]>[=TEXT] [?NODE]<b class="caret"></b>[/?]</a>
+        <a href="#" id="dropdownMenuLink" class="nav-link text-uppercase text-expanded [?NODE]dropdown-toggle[/?]" [?NODE]data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"[/?]>[=TEXT] [?NODE]<b class="caret"></b>[/?]</a>
     [/?]
     [?NODE]
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu"  aria-labelledby="dropdownMenuLink" >
         [*>NODE]
         </ul>
     [/?]
