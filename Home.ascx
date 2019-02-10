@@ -13,8 +13,8 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 
 <dnn:JQUERY ID="dnnjQuery" runat="server" jQueryHoverIntent="true" />
-<dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.js" PathNameAlias="SkinPath" Priority="10" />
-<dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" Priority="14" />
+<dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" Priority="10" />
+<dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="14" />
 
 
 
@@ -90,7 +90,7 @@
                     <dnn:terms id="dnnTerms" runat="server" />
                     <dnn:privacy id="dnnPrivacy" runat="server" />
                 </div>
-                <a href="http://cjh.am/1mGBQby" target="_blank">Design: HammerFlex DNN Skin by Christoc.com</a>
+                <a href="http://cjh.am/1mGBQby" target="_blank">Design: HammerFlex2 Skin for DNN by Christoc.com</a>
             </div>
         </div>
     </div>

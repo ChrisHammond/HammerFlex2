@@ -18,39 +18,23 @@
 <dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="14" />
 
 
-<div class="navbar navbar-default" role="navigation">
+<div class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" role="navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-                <dnn:LOGO runat="server" id="dnnLOGO" />
-            </div>
+        
+        <div class="navbar-brand">
+            <dnn:LOGO runat="server" id="dnnLOGO" />
         </div>
-        <div class="navbar-collapse collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarResponsive">
             <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
-
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="searchBox">
-                                <dnn:Search id="dnnSearch" runat="server" showsite="false" showweb="false" cssclass="btn btn-success btn-xs" />
-                            </div>
-                        </li>
-                    </ul>
-
-                </li>
                 <li>
                     <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
                 <li>
-                    <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
+                    <dnn:USER ID="dnnUser" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
             </ul>
         </div>
@@ -59,7 +43,6 @@
 </div>
 
 <div id="CarouselPane" runat="server" containertype="G" containername="HammerFlex2" containersrc="Blank.ascx" />
-
 
 <div class="container">
     <!--/Logo-->
@@ -102,7 +85,7 @@
                     <dnn:terms id="dnnTerms" runat="server" />
                     <dnn:privacy id="dnnPrivacy" runat="server" />
                 </div>
-                <a href="http://cjh.am/1mGBQby" target="_blank">Design: HammerFlex DNN Skin by Christoc.com</a>
+                <a href="http://cjh.am/1mGBQby" target="_blank">Design: HammerFlex2 Skin for DNN by Christoc.com</a>
             </div>
         </div>
     </div>
