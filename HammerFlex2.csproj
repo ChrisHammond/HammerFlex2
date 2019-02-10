@@ -109,10 +109,8 @@
     <Content Include="img\video-play.svg" />
     <Content Include="i\icon_message.png" />
     <Content Include="i\icon_notification.png" />
-    <Content Include="js\bootstrap-image-gallery.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
-    <Content Include="js\jquery.blueimp-gallery.min.js" />
     <Content Include="License.txt" />
     <Content Include="skin.css" />
     <Content Include="ReleaseNotes.txt" />

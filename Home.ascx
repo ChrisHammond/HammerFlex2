@@ -13,30 +13,28 @@
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 
 <dnn:JQUERY ID="dnnjQuery" runat="server" jQueryHoverIntent="true" />
-<dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" Priority="10" />
-<dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="14" />
+<dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.js" PathNameAlias="SkinPath" Priority="10" />
+<dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.css" PathNameAlias="SkinPath" Priority="14" />
 
 
 
 <div class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" role="navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-brand">
-                <dnn:LOGO runat="server" id="dnnLOGO" />
-            </div>
+        
+        <div class="navbar-brand">
+            <dnn:LOGO runat="server" id="dnnLOGO" />
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="navbar-collapse collapse" id="navbarResponsive">
             <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
-
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
                 <li>
-                    <dnn:USER ID="dnnUser"  CssClass="LoginLink" runat="server" LegacyMode="false" />
+                    <dnn:USER ID="dnnUser" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
             </ul>
         </div>
@@ -44,7 +42,7 @@
     </div>
 </div>
 
-<div id="CarouselPane" runat="server" class="carousel slide" containertype="G" containername="HammerFlex2" containersrc="Blank.ascx" />
+<div id="CarouselPane" runat="server" containertype="G" containername="HammerFlex2" containersrc="Blank.ascx" />
 
 <div class="container">
     <!--/Logo-->
@@ -97,41 +95,4 @@
         </div>
     </div>
 </footer>
-
-
-<!-- gallery and carousel controls, hidden by default -->
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="pTitle"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
