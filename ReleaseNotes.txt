@@ -5,6 +5,14 @@
 <hr/>
 
 <h3>About the HammerFlex2</h3>
+	<h4>Version 00.00.02</h4><br />
+	First release of HammerFlex2
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Updated to Bootstrap 4.3.1</li>			
+	</ul>
+
+<h3>About the HammerFlex2</h3>
 	<h4>Version 00.00.01</h4><br />
 	First release of HammerFlex2
 	<h5>Updates / Bug Fixes</h5>
