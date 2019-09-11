@@ -64,6 +64,10 @@
         <div id="LeftPane" runat="server" class="col-md-3" />
         <div id="ContentPaneRight" runat="server" class="col-md-9" />
     </div>
+    <div id="ContentTwoColumn" class="row">
+        <div id="SplitLeft" runat="server" class="col-md-6" />
+        <div id="SplitRight" runat="server" class="col-md-6" />
+    </div>
     <div id="UserProfile" class="row">
         <div id="UserProfileLeft" runat="server" class="col-md-2" />
         <div id="UserProfileContent" runat="server" class="col-md-10" />
@@ -90,7 +94,7 @@
                     <dnn:terms id="dnnTerms" runat="server" />
                     <dnn:privacy id="dnnPrivacy" runat="server" />
                 </div>
-                <a href="http://cjh.am/1mGBQby" target="_blank">Design: HammerFlex2 Skin for DNN by Christoc.com</a>
+                <a href="https://cjh.am/hammerflex2" target="_blank">Design: HammerFlex2 Skin for DNN by Christoc.com</a>
             </div>
         </div>
     </div>
