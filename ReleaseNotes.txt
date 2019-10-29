@@ -6,6 +6,13 @@
 
 <h3>About the HammerFlex2</h3>
 
+	<h4>Version 00.00.04</h4><br />
+	Fourth release of HammerFlex2
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Updated minimum DNN version number</li>
+			<li>Updated spacing around footer for skin link (you can remove that skin link)</li>
+	</ul>
 
 	<h4>Version 00.00.03</h4><br />
 	Third release of HammerFlex2

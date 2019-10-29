@@ -94,7 +94,9 @@
                     <dnn:terms id="dnnTerms" runat="server" />
                     <dnn:privacy id="dnnPrivacy" runat="server" />
                 </div>
-                <a href="https://cjh.am/hammerflex2" target="_blank">Design: HammerFlex2 Skin for DNN by Christoc.com</a>
+                <div class="col-md-12">
+                    <a href="https://cjh.am/hammerflex2" target="_blank">Design: HammerFlex2 Theme for DNN by Christoc.com</a>
+                </div>
             </div>
         </div>
     </div>
