@@ -6,6 +6,15 @@
 
 <h3>About the HammerFlex2</h3>
 
+
+	<h4>Version 00.00.05</h4><br />
+	Fourth release of HammerFlex2
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Updated minimum DNN version number</li>
+			<li>Upgraded to bootstrap 4.4.1</li>
+	</ul>
+
 	<h4>Version 00.00.04</h4><br />
 	Fourth release of HammerFlex2
 	<h5>Updates / Bug Fixes</h5>
