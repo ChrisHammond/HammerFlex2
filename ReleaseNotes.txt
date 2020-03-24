@@ -4,6 +4,8 @@
 	<a href=http://www.christoc.com>http://www.christoc.com</a><br />
 <hr/>
 
+
+
 <h3>About the HammerFlex2</h3>
 
 
@@ -15,6 +17,10 @@
 			<li>Upgraded to bootstrap 4.4.1</li>
 	</ul>
 
+	<br/>
+	<br/>
+
+
 	<h4>Version 00.00.04</h4><br />
 	Fourth release of HammerFlex2
 	<h5>Updates / Bug Fixes</h5>
@@ -22,7 +28,8 @@
 			<li>Updated minimum DNN version number</li>
 			<li>Updated spacing around footer for skin link (you can remove that skin link)</li>
 	</ul>
-
+	<br/>
+	<br/>
 	<h4>Version 00.00.03</h4><br />
 	Third release of HammerFlex2
 	<h5>Updates / Bug Fixes</h5>
