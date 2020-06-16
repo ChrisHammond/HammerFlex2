@@ -1,7 +1,7 @@
 ﻿<h3>HammerFlex</h3>
 	Christoc.com <br />
 	<a href="mailto:skins@christoc.com">skins@christoc.com</a><br />
-	<a href=http://www.christoc.com>http://www.christoc.com</a><br />
+	<a href=https://www.christoc.com>https://www.christoc.com</a><br />
 <hr/>
 
 
