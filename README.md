@@ -7,7 +7,7 @@ Another free open source skin for DNN (DotNetNuke) using Bootstrap 4.
 
 Latest Release
 --------------
-V00.00.05 - 3/24/2020
+V00.00.07 - 12/16/2020
 
 Installation and Customization
 ------------------------------
@@ -17,7 +17,7 @@ Development and Source Code Notes
 ---------------------------------
 If you want to customize this skin, using the source code, here are the steps that I would recommend. 
 
-1. Setup your development environment using the URL DNNDEV.ME you can follow this tutorial: http://www.christoc.com/Tutorials/All-Tutorials/aid/1
+1. Setup your development environment using the URL DNNDEV.ME you can follow this tutorial: https://christoc.com/Tutorials/All-Tutorials/Setting-up-your-DotNetNuke-Module-Development-Environment
 2. Download the SOURCE package of the skin from GitHub
 3. Install the SOURCE package of the skin from the Host/Extensions page
 4. Open the CSPROJ file for the skin project, located in /portals/_default/skins/hammerflex2/
