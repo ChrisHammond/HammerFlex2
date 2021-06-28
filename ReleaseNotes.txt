@@ -8,6 +8,13 @@
 
 <h3>About the HammerFlex2</h3>
 
+<h4>Version 00.00.08</h4><br />
+	Fourth release of HammerFlex2
+	<h5>Updates / Bug Fixes</h5>
+	<ul>
+			<li>Upgraded to bootstrap 4.6.0</li>
+	</ul>
+
 <h4>Version 00.00.07</h4><br />
 	Fourth release of HammerFlex2
 	<h5>Updates / Bug Fixes</h5>

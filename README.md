@@ -7,7 +7,7 @@ Another free open source skin for DNN (DotNetNuke) using Bootstrap 4.
 
 Latest Release
 --------------
-V00.00.07 - 12/16/2020
+V00.00.08 - 06/28/2021
 
 Installation and Customization
 ------------------------------
