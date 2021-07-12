@@ -55,6 +55,10 @@
         <div id="ContentPane" runat="server" class="col-md-9" />
         <div id="RightPane" runat="server" class="col-md-3" />
     </div>
+    <div id="SecondContent" class="row">
+        <div id="ContentPane8" runat="server" class="col-md-8" />
+        <div id="RightPane4" runat="server" class="col-md-4" />
+    </div>
     <div id="MidContent" class="row">
         <div id="ThirdRowLeft" runat="server" class="col-md-4" />
         <div id="ThirdRowMiddle" runat="server" class="col-md-4" />
@@ -63,6 +67,10 @@
     <div id="ContentLeftCol" class="row">
         <div id="LeftPane" runat="server" class="col-md-3" />
         <div id="ContentPaneRight" runat="server" class="col-md-9" />
+    </div>
+    <div id="MoreContent" class="row">
+        <div id="LeftPane4" runat="server" class="col-md-4" />
+        <div id="RightContentPane8" runat="server" class="col-md-8" />
     </div>
     <div id="ContentTwoColumn" class="row">
         <div id="SplitLeft" runat="server" class="col-md-6" />
