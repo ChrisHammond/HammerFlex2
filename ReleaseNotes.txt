@@ -13,6 +13,7 @@
 	<h5>Updates / Bug Fixes</h5>
 	<ul>
 		<li>Added some panes to the HOME layout</li>
+		<li>Upgraded to bootstrap 4.6.1</li>
 	</ul>
 
 

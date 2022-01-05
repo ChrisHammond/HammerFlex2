@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("HammerFlex2")]
-[assembly: AssemblyCopyright("Christoc.com Copyright © 2019-2021")]
+[assembly: AssemblyCopyright("Christoc.com Copyright © 2019-2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PopupSkin.ascx.cs" Inherits="Christoc.Skins.HammerFlex2.PopupSkin" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="PopupSkin.ascx.cs" Inherits="Christoc.Skins.HammerFlex2.PopupSkin" %>
 <%@ Register TagPrefix="dnn" TagName="META" Src="~/Admin/Skins/Meta.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
@@ -11,3 +11,4 @@
 
 
 <div id="ContentPane" runat="server" class="col-md-12" />
+

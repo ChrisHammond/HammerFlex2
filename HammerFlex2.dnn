@@ -6,7 +6,7 @@
       <owner>
         <name>Chris Hammond</name>
         <organization>Christoc.com</organization>
-        <url>http://www.christoc.com</url>
+        <url>https://www.christoc.com</url>
         <email>skins@christoc.com</email>
       </owner>
       <azureCompatible>true</azureCompatible>
@@ -55,7 +55,7 @@
       <owner>
         <name>Chris Hammond</name>
         <organization>Christoc.com</organization>
-        <url>http://www.christoc.com</url>
+        <url>https://www.christoc.com</url>
         <email>skins@christoc.com</email>
       </owner>
       <license src="license.txt"></license>
