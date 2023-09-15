@@ -17,8 +17,6 @@
 <dnn:DnnJsInclude ID="bootstrapJS" runat="server" FilePath="js/bootstrap.min.js" PathNameAlias="SkinPath" Priority="10" />
 <dnn:DnnCssInclude ID="bootStrapCSS" runat="server" FilePath="css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="14" />
 
-
-
 <div class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary" role="navigation">
     <div class="container">
         
@@ -31,16 +29,19 @@
         <div class="navbar-collapse collapse" id="navbarResponsive">
             <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
             <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="searchBox">
-                                <dnn:Search id="dnnSearch" runat="server" showsite="false" showweb="false" cssclass="btn btn-success btn-xs" />
-                            </div>
+                <li>
+                    <ul class="searchgroup nav">
+                        <li class="dropdown show">
+                            <a href="#" class="dropdown-toggle" data-toggle="searchdropdown">Search<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="searchBox">
+                                        <dnn:Search id="dnnSearch" runat="server" showsite="false" showweb="false" cssclass="btn btn-success btn-xs" />
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-
                 </li>
                 <li>
                     <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />

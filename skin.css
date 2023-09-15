@@ -101,12 +101,12 @@ ul.dnnAdminTabNav {
         background-color: #178acc;
     }
 
-
+/*
 .navbar-nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+    */
 
 
 
@@ -145,7 +145,7 @@ ul.dnnAdminTabNav {
         }
 
         .registerGroup a,
-        .loginGroup a {
+        .loginGroup a, .searchgroup  a{
             display: block;
             position: relative;
             min-width: 12px;
