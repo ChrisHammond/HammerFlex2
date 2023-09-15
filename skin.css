@@ -26,6 +26,11 @@ a.btn-info, a.btn-info:visited, a.btn-primary, a.btn-primary:visited {
     width: 240px;
 }*/
 
+.searchBox {
+    padding: 15px 15px 0 15px;
+    width: 240px;
+}
+
     .searchBox .searchText {
         color: #000;
         float: right;
@@ -66,7 +71,7 @@ ul.dnnAdminTabNav {
 /* Addition to bootstrap menu styles */
 
 /* Navigation */
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav a{
     color: rgba(255,255,255,1);
 }
 
@@ -113,34 +118,34 @@ ul.dnnAdminTabNav {
     height: 45px;
 }
 
-    .navbar-right .registerGroup,
-    .navbar-right .registerGroup *,
-    .navbar-right .loginGroup,
-    .navbar-right .loginGroup * {
+    .registerGroup,
+    .registerGroup *,
+    .loginGroup,
+    .loginGroup * {
         display: inline;
         color:#FFF;
     }
 
-    .navbar-right .registerGroup,
-    .navbar-right .loginGroup {
+    .registerGroup,
+    .loginGroup {
         float: right;
     }
 
-        .navbar-right .registerGroup li:first-child:hover {
+        .registerGroup li:first-child:hover {
             border-left: #222;
         }
 
         /* Register Group Styles */
-        .navbar-right .registerGroup li {
+        .registerGroup li {
             float: left;
         }
 
-        .navbar-right .registerGroup .buttonGroup {
+        .registerGroup .buttonGroup {
             margin-right: 0;
         }
 
-        .navbar-right .registerGroup a,
-        .navbar-right .loginGroup a {
+        .registerGroup a,
+        .loginGroup a {
             display: block;
             position: relative;
             min-width: 12px;
@@ -148,22 +153,22 @@ ul.dnnAdminTabNav {
             vertical-align: middle;
         }
 
-            .navbar-right .registerGroup a:hover,
-            .navbar-right .loginGroup a:hover {
+            .registerGroup a:hover,
+            .loginGroup a:hover {
             }
 
-            .navbar-right .registerGroup a:active,
-            .navbar-right .loginGroup a:active {
+            .registerGroup a:active,
+            .loginGroup a:active {
                 text-shadow: 0 -1px 0 #ffffff;
             }
 
-            .navbar-right .registerGroup a:hover,
-            .navbar-right .loginGroup a:hover {
+            .registerGroup a:hover,
+            .loginGroup a:hover {
                 text-decoration: none;
             }
 
-            .navbar-right .registerGroup a strong,
-            .navbar-right .loginGroup a strong {
+            .registerGroup a strong,
+            .loginGroup a strong {
                 display: block;
                 position: absolute;
                 left: 0;
@@ -174,26 +179,26 @@ ul.dnnAdminTabNav {
                 text-indent: -9999px;
             }
 
-    .navbar-right .userMessages a,
-    .navbar-right .userNotifications a {
+    .userMessages a,
+    .userNotifications a {
         background-color: transparent;
         margin: 10px 0;
     }
 
-    .navbar-right .userMessages strong {
+    .userMessages strong {
         height: 100%;
         background: url('i/icon_message.png') no-repeat center center;
     }
 
-    .navbar-right .userNotifications {
+    .userNotifications {
     }
 
-        .navbar-right .userNotifications strong {
+        .userNotifications strong {
             height: 100%;
             background: url('i/icon_notification.png') no-repeat center center;
         }
 
-    .navbar-right .registerGroup a span {
+    .registerGroup a span {
         display: inline-block;
         min-width: 7px;
         margin-right: 3px;
@@ -202,34 +207,34 @@ ul.dnnAdminTabNav {
 
 
 
-    .navbar-right .registerGroup .userProfileImg a {
+    .registerGroup .userProfileImg a {
         min-width: 45px;
         min-height: 45px;
         padding: 0;
     }
 
-    .navbar-right .registerGroup a img {
+    .registerGroup a img {
         height: 45px;
         width: 45px;
     }
 
     /* Login Group Styles */
-    .navbar-right .loginGroup {
+    .loginGroup {
     }
 
-        .navbar-right .loginGroup a {
+        .loginGroup a {
         }
 
     /* Number of message next to the message icon*/
-    .navbar-right .userMessages a span,
-    .navbar-right .userNotifications a span {
+    .userMessages a span,
+    .userNotifications a span {
         display: inline-block;
         margin-top: 0;
         margin-right: 0;
         background-color: transparent;
     }
 
-    .navbar-right .userNotifications span, .navbar-right .userMessages span {
+    .userNotifications span, .userMessages span {
         height: 100%;
         display: block;
         position: absolute;
@@ -242,11 +247,11 @@ ul.dnnAdminTabNav {
         z-index: 999;
     }
 
-    .navbar-right .userNotifications span {
+    .userNotifications span {
         background: url('i/icon_notification_active.png') no-repeat center center;
     }
 
-    .navbar-right .userMessages span {
+    .userMessages span {
         background: url('i/icon_message_active.png') no-repeat center center;
     }
 

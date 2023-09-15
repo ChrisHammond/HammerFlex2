@@ -8,6 +8,7 @@
 <%@ Register TagPrefix="dnn" TagName="JQUERY" Src="~/Admin/Skins/jQuery.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="META" Src="~/Admin/Skins/Meta.ascx" %>
 <%@ Register TagPrefix="dnn" TagName="MENU" Src="~/DesktopModules/DDRMenu/Menu.ascx" %>
+<%@ Register TagPrefix="dnn" TagName="SEARCH" Src="~/Admin/Skins/Search.ascx" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 
 <dnn:META ID="mobileScale" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
@@ -29,7 +30,18 @@
         </button>
         <div class="navbar-collapse collapse" id="navbarResponsive">
             <dnn:MENU MenuStyle="BootStrapNav" runat="server"></dnn:MENU>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="searchBox">
+                                <dnn:Search id="dnnSearch" runat="server" showsite="false" showweb="false" cssclass="btn btn-success btn-xs" />
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
                 <li>
                     <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
                 </li>
@@ -46,7 +58,10 @@
 
 <div class="container">
     <!--/Logo-->
-
+    <div id="PreTopContent" class="row">
+        <div id="TopLeftPane" runat="server" class="col-md-9" />
+        <div id="TopRightPane" runat="server" class="col-md-3" />
+    </div>
     <div id="TopContent" class="row">
         <div id="TopPane" runat="server" class="col-md-12" />
     </div>
@@ -55,14 +70,25 @@
         <div id="ContentPane" runat="server" class="col-md-9" />
         <div id="RightPane" runat="server" class="col-md-3" />
     </div>
+
+     <div id="FullWidth" class="row">
+        <div id="FullWidth1" runat="server" class="col-md-12" />
+    </div>
+
     <div id="SecondContent" class="row">
         <div id="ContentPane8" runat="server" class="col-md-8" />
         <div id="RightPane4" runat="server" class="col-md-4" />
+    </div>
+     <div id="FullWidth2" class="row">
+        <div id="FullWidth2" runat="server" class="col-md-12" />
     </div>
     <div id="MidContent" class="row">
         <div id="ThirdRowLeft" runat="server" class="col-md-4" />
         <div id="ThirdRowMiddle" runat="server" class="col-md-4" />
         <div id="ThirdRowRight" runat="server" class="col-md-4" />
+    </div>
+     <div id="FullWidth3" class="row">
+        <div id="FullWidth3" runat="server" class="col-md-12" />
     </div>
     <div id="ContentLeftCol" class="row">
         <div id="LeftPane" runat="server" class="col-md-3" />
