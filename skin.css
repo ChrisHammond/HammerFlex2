@@ -8,6 +8,10 @@
     text-align: center;
 }
 
+a.btn-info, a.btn-info:visited, a.btn-primary, a.btn-primary:visited {
+    color: #fff;
+}
+
 /*.navbar {
     margin-bottom: 0 !important;
     border-radius: 0 !important;
@@ -17,9 +21,6 @@
     padding: 0 !important;
 }
 
-a.btn-info, a.btn-info:visited, a.btn-primary, a.btn-primary:visited {
-    color: #fff;
-}
 
 .searchBox {
     padding: 15px 15px 0 15px;
@@ -257,8 +258,8 @@ ul.dnnAdminTabNav {
 
 @media (min-width: 992px) {
     .pl-lg-4, .px-lg-4 {
-        padding-left: 0.75rem !important;
-        padding-right: 0.75rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
     }
 }
 /* Content formatting */
